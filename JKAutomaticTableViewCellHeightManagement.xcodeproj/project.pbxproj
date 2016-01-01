@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		389669DD1C3624AA00EA71D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 389669DC1C3624AA00EA71D0 /* main.m */; };
+		389669E01C3624AB00EA71D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 389669DF1C3624AA00EA71D0 /* AppDelegate.m */; };
+		389669E31C3624AB00EA71D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389669E21C3624AB00EA71D0 /* ViewController.m */; };
+		389669E61C3624AB00EA71D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389669E41C3624AB00EA71D0 /* Main.storyboard */; };
+		389669E81C3624AB00EA71D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 389669E71C3624AB00EA71D0 /* Assets.xcassets */; };
+		389669EB1C3624AB00EA71D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389669E91C3624AB00EA71D0 /* LaunchScreen.storyboard */; };
+		389669F61C3624AB00EA71D0 /* JKAutomaticTableViewCellHeightManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 389669F51C3624AB00EA71D0 /* JKAutomaticTableViewCellHeightManagementTests.m */; };
+		38966A021C36251900EA71D0 /* JKAutomaticTableHeightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38966A011C36251900EA71D0 /* JKAutomaticTableHeightTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		389669F21C3624AB00EA71D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 389669D01C3624AA00EA71D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 389669D71C3624AA00EA71D0;
+			remoteInfo = JKAutomaticTableViewCellHeightManagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		389669D81C3624AA00EA71D0 /* JKAutomaticTableViewCellHeightManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKAutomaticTableViewCellHeightManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		389669DC1C3624AA00EA71D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		389669DE1C3624AA00EA71D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		389669DF1C3624AA00EA71D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		389669E11C3624AB00EA71D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		389669E21C3624AB00EA71D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		389669E51C3624AB00EA71D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		389669E71C3624AB00EA71D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		389669EA1C3624AB00EA71D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		389669EC1C3624AB00EA71D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		389669F11C3624AB00EA71D0 /* JKAutomaticTableViewCellHeightManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKAutomaticTableViewCellHeightManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		389669F51C3624AB00EA71D0 /* JKAutomaticTableViewCellHeightManagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAutomaticTableViewCellHeightManagementTests.m; sourceTree = "<group>"; };
+		389669F71C3624AB00EA71D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38966A001C36251900EA71D0 /* JKAutomaticTableHeightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAutomaticTableHeightTableViewCell.h; sourceTree = "<group>"; };
+		38966A011C36251900EA71D0 /* JKAutomaticTableHeightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAutomaticTableHeightTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		389669D51C3624AA00EA71D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389669EE1C3624AB00EA71D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		389669CF1C3624AA00EA71D0 = {
+			isa = PBXGroup;
+			children = (
+				389669DA1C3624AA00EA71D0 /* JKAutomaticTableViewCellHeightManagement */,
+				389669F41C3624AB00EA71D0 /* JKAutomaticTableViewCellHeightManagementTests */,
+				389669D91C3624AA00EA71D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		389669D91C3624AA00EA71D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				389669D81C3624AA00EA71D0 /* JKAutomaticTableViewCellHeightManagement.app */,
+				389669F11C3624AB00EA71D0 /* JKAutomaticTableViewCellHeightManagementTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		389669DA1C3624AA00EA71D0 /* JKAutomaticTableViewCellHeightManagement */ = {
+			isa = PBXGroup;
+			children = (
+				389669DE1C3624AA00EA71D0 /* AppDelegate.h */,
+				389669DF1C3624AA00EA71D0 /* AppDelegate.m */,
+				389669E11C3624AB00EA71D0 /* ViewController.h */,
+				389669E21C3624AB00EA71D0 /* ViewController.m */,
+				38966A001C36251900EA71D0 /* JKAutomaticTableHeightTableViewCell.h */,
+				38966A011C36251900EA71D0 /* JKAutomaticTableHeightTableViewCell.m */,
+				389669E41C3624AB00EA71D0 /* Main.storyboard */,
+				389669E71C3624AB00EA71D0 /* Assets.xcassets */,
+				389669E91C3624AB00EA71D0 /* LaunchScreen.storyboard */,
+				389669EC1C3624AB00EA71D0 /* Info.plist */,
+				389669DB1C3624AA00EA71D0 /* Supporting Files */,
+			);
+			path = JKAutomaticTableViewCellHeightManagement;
+			sourceTree = "<group>";
+		};
+		389669DB1C3624AA00EA71D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				389669DC1C3624AA00EA71D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		389669F41C3624AB00EA71D0 /* JKAutomaticTableViewCellHeightManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				389669F51C3624AB00EA71D0 /* JKAutomaticTableViewCellHeightManagementTests.m */,
+				389669F71C3624AB00EA71D0 /* Info.plist */,
+			);
+			path = JKAutomaticTableViewCellHeightManagementTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		389669D71C3624AA00EA71D0 /* JKAutomaticTableViewCellHeightManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 389669FA1C3624AB00EA71D0 /* Build configuration list for PBXNativeTarget "JKAutomaticTableViewCellHeightManagement" */;
+			buildPhases = (
+				389669D41C3624AA00EA71D0 /* Sources */,
+				389669D51C3624AA00EA71D0 /* Frameworks */,
+				389669D61C3624AA00EA71D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKAutomaticTableViewCellHeightManagement;
+			productName = JKAutomaticTableViewCellHeightManagement;
+			productReference = 389669D81C3624AA00EA71D0 /* JKAutomaticTableViewCellHeightManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		389669F01C3624AB00EA71D0 /* JKAutomaticTableViewCellHeightManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 389669FD1C3624AB00EA71D0 /* Build configuration list for PBXNativeTarget "JKAutomaticTableViewCellHeightManagementTests" */;
+			buildPhases = (
+				389669ED1C3624AB00EA71D0 /* Sources */,
+				389669EE1C3624AB00EA71D0 /* Frameworks */,
+				389669EF1C3624AB00EA71D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				389669F31C3624AB00EA71D0 /* PBXTargetDependency */,
+			);
+			name = JKAutomaticTableViewCellHeightManagementTests;
+			productName = JKAutomaticTableViewCellHeightManagementTests;
+			productReference = 389669F11C3624AB00EA71D0 /* JKAutomaticTableViewCellHeightManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		389669D01C3624AA00EA71D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jayesh Kawli Backup";
+				TargetAttributes = {
+					389669D71C3624AA00EA71D0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					389669F01C3624AB00EA71D0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 389669D71C3624AA00EA71D0;
+					};
+				};
+			};
+			buildConfigurationList = 389669D31C3624AA00EA71D0 /* Build configuration list for PBXProject "JKAutomaticTableViewCellHeightManagement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 389669CF1C3624AA00EA71D0;
+			productRefGroup = 389669D91C3624AA00EA71D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				389669D71C3624AA00EA71D0 /* JKAutomaticTableViewCellHeightManagement */,
+				389669F01C3624AB00EA71D0 /* JKAutomaticTableViewCellHeightManagementTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		389669D61C3624AA00EA71D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389669EB1C3624AB00EA71D0 /* LaunchScreen.storyboard in Resources */,
+				389669E81C3624AB00EA71D0 /* Assets.xcassets in Resources */,
+				389669E61C3624AB00EA71D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389669EF1C3624AB00EA71D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		389669D41C3624AA00EA71D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38966A021C36251900EA71D0 /* JKAutomaticTableHeightTableViewCell.m in Sources */,
+				389669E31C3624AB00EA71D0 /* ViewController.m in Sources */,
+				389669E01C3624AB00EA71D0 /* AppDelegate.m in Sources */,
+				389669DD1C3624AA00EA71D0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389669ED1C3624AB00EA71D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389669F61C3624AB00EA71D0 /* JKAutomaticTableViewCellHeightManagementTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		389669F31C3624AB00EA71D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 389669D71C3624AA00EA71D0 /* JKAutomaticTableViewCellHeightManagement */;
+			targetProxy = 389669F21C3624AB00EA71D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		389669E41C3624AB00EA71D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				389669E51C3624AB00EA71D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		389669E91C3624AB00EA71D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				389669EA1C3624AB00EA71D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		389669F81C3624AB00EA71D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		389669F91C3624AB00EA71D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		389669FB1C3624AB00EA71D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKAutomaticTableViewCellHeightManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayeshKawli.JKAutomaticTableViewCellHeightManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		389669FC1C3624AB00EA71D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKAutomaticTableViewCellHeightManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayeshKawli.JKAutomaticTableViewCellHeightManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		389669FE1C3624AB00EA71D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKAutomaticTableViewCellHeightManagementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayeshKawli.JKAutomaticTableViewCellHeightManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKAutomaticTableViewCellHeightManagement.app/JKAutomaticTableViewCellHeightManagement";
+			};
+			name = Debug;
+		};
+		389669FF1C3624AB00EA71D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKAutomaticTableViewCellHeightManagementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayeshKawli.JKAutomaticTableViewCellHeightManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKAutomaticTableViewCellHeightManagement.app/JKAutomaticTableViewCellHeightManagement";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		389669D31C3624AA00EA71D0 /* Build configuration list for PBXProject "JKAutomaticTableViewCellHeightManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389669F81C3624AB00EA71D0 /* Debug */,
+				389669F91C3624AB00EA71D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		389669FA1C3624AB00EA71D0 /* Build configuration list for PBXNativeTarget "JKAutomaticTableViewCellHeightManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389669FB1C3624AB00EA71D0 /* Debug */,
+				389669FC1C3624AB00EA71D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		389669FD1C3624AB00EA71D0 /* Build configuration list for PBXNativeTarget "JKAutomaticTableViewCellHeightManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389669FE1C3624AB00EA71D0 /* Debug */,
+				389669FF1C3624AB00EA71D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 389669D01C3624AA00EA71D0 /* Project object */;
+}
