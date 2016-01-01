@@ -10,14 +10,13 @@
 
 @implementation JKAutomaticTableHeightTableViewCell
 
-- (void)awakeFromNib {
-    // Initialization code
-}
-
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+    if (selected) {
+        self.cellTitleLabel.backgroundColor = [UIColor greenColor];
+    } else {
+        self.cellTitleLabel.backgroundColor = [UIColor whiteColor];
+    }
 }
 
 @end
